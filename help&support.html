@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+    <header>
+            <style>
+	    body{
+                background-color:#CCFFCC;
+                border:2px solid black;
+                margin:2px;
+                padding:2px;
+                border-radius:4px;
+                width:90%;
+                height:150%;
+		      }
+            nav{
+                line-height: normal;
+                text-decoration:none;
+                float:left;
+                display:block;
+                padding:10px;
+                margin:10px;
+                width:100%;
+            }
+            #nav a:hover{
+			     color:blanchedalmond;
+			}
+            #nav a:link{
+			     color:darkred;
+				}
+            #nav a:visited{
+			     color:yellow;
+				}
+            #nav a:active{
+			     color:aqua;
+				}
+            .input{
+                    text-decoration: none;
+                    font-family: monospace;
+                    font-size: 15px;
+                    text-decoration-color: azure;
+                    text-shadow:2px;
+                    }
+            .class{
+                    max-width:20%;
+                    display:block;
+                    padding-bottom: 8px;
+                    margin: 0 auto;
+                    background-color:floralwhite;
+                    text-align: center;
+                    text-decoration-color: aquamarine;
+                    font-size:20px;
+                    display:block;
+                    float: left;
+                    background-color: antiquewhite;
+                    } 
+            header{
+                    width:100%;
+                    font-family:Copperplate Gothic;
+                    font-size:20px;
+                    text-align:center;
+                    color:floralwhite;
+                    background-color:darkgrey;
+                    border:1px solid green;
+		              }   
+	       #img{
+                    border:3px black solid;
+                    margin:2px;
+                    padding:2px;
+                    border-radius:4px;
+		              }
+	       #footer{
+                    bottom: 0;
+                    left: 0;
+                    position: fixed;
+                    text-align: center;
+                    width: 100%;
+                    z-index: -1;
+                    background-color:blue;
+                    color:yellow;
+                    border-radius:7px;
+		              }
+        	form{
+				background-color:antiquewhite;
+				border:4PX solid ;
+				Margin:5xp;
+				align:right;
+				text-align:center;
+				height:80%;
+                width:60%;
+				}
+            legend{
+				text-align:center;
+				border:2px dotted brown;
+				background-color:greenyellow;
+				text-align:center;
+				margin:6px;
+				color:golden;
+				height:40%
+				}
+            .item{
+				width:150px;
+				height:10%;
+				color:black;
+				background-color:yellow;
+				float:left;
+				}
+			.input{
+				width:150px;
+				height:10%;
+				color:lightblue;
+				background-color:pink;
+				margin:6px;
+				padding:5px;
+				border:2px solid;
+				}
+			.gender{
+				background-color:red;	
+				text-align:left;
+				color:brown;
+				}
+			.li {
+				list-style-type:none;
+				color:grey;
+				display:block;
+				float:left;
+				padding:10px;
+				margin:10px;
+				width:10px;
+				text-decoration:none;
+				}
+        </style>
+        <meta charset="UTF-8"/>
+        <title>Page 1</title>
+        <img src="C:\Users\Fatoumata Bamba\Desktop\geet projet\logo.jpg" width="10%" height="15%" alt="logo"/>
+        <b>MY SHOPPING COMPLEX</b>
+    </header>
+    <body>
+    <nav>
+        <a href="home.html">HOME</a>
+        <select class="input" onchange="location = this.value;">
+					<option value="Dw">FEMALE</option>
+					<option value="Web Design"><a href="wmn-cloths.html">cloths</a></option>
+					<option value="ER"><a href="wmn-shoes.html">Shoes</a></option>
+					<option value="Dr"><a href="wmn-bag.html">handbags</a></option>
+					<option value="Erl"><a href="wmn-acc.html">Accessories</a></option>
+					<option value="Fe"><a href="wmn-garments.html">Garments</a></option>
+					<option value="Med"><a href="wmn-watches.html">Watches</a></option>
+        </select>
+        <select class="input" onchange="location = this.value;">
+					<option value="Dw">MALE</option>
+					<option value="0men%20cloths.html">cloths</option>
+					<option value="menshoes.html">Shoes</option>
+					<option value="men-accessories.html">Accessories</option>
+					<option value="men-garment.html">Garments</option>
+					<option value="men-watches.html">Watches</option>
+					<option value="men-shav&frag.html">Shaving & Fragnance</option>
+                    <option value="men-swet&jack.html">Sweater & Jackets</option>
+        </select>
+        <select class="input"onchange="location = this.value;">
+					<option value="Dw">Girls</option>
+					<option value="girl-cloth.html">cloths</option>
+					<option value="girl-shoes.html">Shoes</option>
+					<option value="girl-acce.html">Accessories</option>
+        </select>
+        <select class="input" onchange="location = this.value;">
+					<option value="Dw">Boys</option>
+					<option value="boy-cloth.html">cloths</option>
+					<option value="boy-shoes.html">Shoes</option>
+					<option value="boy-acce.html">Accessories</option>
+        </select>
+        <a href="contact-us.html">ABOUT US</a>
+        <a href="help&support.html">HELP AND SUPPORT</a>
+    </nav>  
+    <main>
+        <section>
+            <img src="C:\Users\Fatoumata Bamba\Desktop\geet projet\logo.jpg" width="15%" height="15%" alt="logo"/><br/><br/>
+            <form method="post">
+			<feildset>
+                 <article><b><i>Help & Support </i></b></article>
+					<label class="item"  for="name">Name:</label>
+					<input class="input" type="name" placeholder="name" name="name"/><br/>
+                <Label class="item" for="Gender">Gender</label> <br/>
+					<label for="Men">Men</label>
+					<input class="gender" type="radio" name="Gender" value="men"/><br/>
+					<label for="Women">Women</label>
+					<input class="gender" type="radio" name="Gender" value="women"/><br/>
+					<label for="Others">Others</label>
+					<input class="gender" type="radio" name="Gender" value="others"/><br/>
+				<label class="item" for="Contact">Contact</label>
+				<input class="input" type="name" placeholder="contact" Name="Contact"/><br/>
+				<label class="item" for="email">E-Mail</label>
+				<input class="input" type="name" placeholder="email" Name="E-Mail"/><br/>
+                <label class="item" for="comment">Leave your inqury here</label>
+                <textarea class="input" name="leave a comment" placeholder="leave a comment" ></textarea><br/><br/>
+				<button type="Submit">Submit</button>
+				<button type="Cancel">Cancel</button>
+			</feildset>
+		</form>
+        </section>
+    </main>
+    </body>
+    <footer>@shopping home</footer>
+</html>
